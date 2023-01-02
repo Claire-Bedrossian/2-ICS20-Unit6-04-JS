@@ -28,7 +28,7 @@ window.onload = function () {
 
   //output
   document.getElementById("perimeter").innerHTML =
-    "<h6>The perimeter is equal to: " + perimeter + "cm²</h6)"
+    "<h6>The perimeter is equal to: " + perimeter + " cm</h6)"
   document.getElementById("area").innerHTML =
-    "<h6>The area is equal to: " + area.toFixed(2) + " cm</h6>"
+    "<h6>The area is equal to: " + area.toFixed(2) + " cm²</h6>"
 }
